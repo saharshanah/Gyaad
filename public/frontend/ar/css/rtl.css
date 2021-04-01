@@ -1,0 +1,986 @@
+
+/*==============================
+	HEADER CSS
+==============================*/
+.social-bx, .login-bx{
+	margin-left:0px;	
+}
+.header-nav .nav{
+	float:left;
+}
+
+.logo-header{
+	float:right;
+}
+.wt-topbar-right{
+	float:left;
+}
+.header-skew::before {
+    border-left: 7px solid #212427;
+    left: -50px;
+	right:auto;
+	-webkit-transform: skew(30deg);
+	-moz-transform: skew(30deg);
+	-o-transform: skew(30deg);
+	-ms-transform: skew(30deg);
+	transform: skew(30deg);
+
+}
+.site-search form::before{
+	border-right: 7px solid #212427;
+	border-left: 0px solid #212427;
+	right:-25px;
+	left:auto;	
+	-webkit-transform: skew(-30deg);
+	-moz-transform: skew(-30deg);
+	-o-transform: skew(-30deg);
+	-ms-transform: skew(-30deg);
+	transform: skew(-30deg);
+}
+.site-search{
+	left:0px;
+	right:auto;
+	padding-left:0px;
+	padding-right:50px;
+}
+.extra-nav{
+	float:left;
+}
+
+.header-skew::after {
+    left: 10%;
+	right:auto;
+}
+
+.header-nav .nav i {
+    margin-right: 3px;
+}
+@media only screen and (max-width:991px){
+.header-nav .nav{
+	width:100%;
+}	
+.header-nav .nav i{
+	float:left;
+}
+.has-child .submenu-toogle{
+	right: auto;
+	left:10px;
+	top: 10px;
+	color: #fff;
+}
+
+}
+.header-nav .nav > li .sub-menu {
+	left:auto;
+	right:0;
+}
+.header-nav .nav > li .sub-menu li:hover > .sub-menu{
+	right:218px;
+}
+.header-nav .nav > li .sub-menu li > .sub-menu{
+	right:220px;
+}
+
+
+
+.nav-cart-item-image{
+	float:right;	
+}
+.cart-dropdown-item-wraper{
+	text-align:right;
+	right:-160px;
+}
+
+.nav-cart-item-image{
+	margin-left:15px;
+	margin-right:0px;
+}
+.nav-cart-item-desc a.nav-cart-item-quantity{
+	left:0px;
+	right:auto;
+}
+.nav-cart-items::before{
+	left:25px;
+	right:auto;
+}
+
+@media only screen and (max-width:600px) {
+.navbar-toggle{
+	 margin: 24px 10px 24px 0px;
+}
+
+}
+.boxed .header-skew::after {
+    right: -15px;
+}
+
+/*==============================
+	BREADCRUMB CSS
+==============================*/
+.breadcrumb-style-1 li::after {
+    content: "/";
+    margin-right: 7px;
+}
+
+.breadcrumb-style-3 li::after, .breadcrumb-style-3 li::before{
+	left:0px;
+	right:auto;
+}
+.breadcrumb-style-3 li::before{
+	-webkit-transform: skew(30deg);
+	-moz-transform: skew(30deg);
+	-o-transform: skew(30deg);
+	-ms-transform: skew(30deg);
+	transform: skew(30deg);
+}
+
+.breadcrumb-style-3 li::after{
+	-webkit-transform: skew(-30deg);
+	-moz-transform: skew(-30deg);
+	-o-transform: skew(-30deg);
+	-ms-transform: skew(-30deg);
+	transform: skew(-30deg);
+}
+
+.breadcrumb-style-2 li::after{
+	top:3px;
+	left:0px;
+	right:auto;
+	position:absolute;
+	-moz-transform: scale(1) rotate(180deg);
+	-webkit-transform: scale(1) rotate(180deg);
+	-o-transform: scale(1) rotate(180deg);
+	-ms-transform: scale(1) rotate(180deg);
+	transform: scale(1) rotate(180deg);
+
+}
+
+.wt-breadcrumb li {
+	margin-right:0px;
+}
+.breadcrumb-style-2 li{
+	padding-left:20px;
+}
+
+
+
+/*==============================
+	SKEW BTN CSS
+==============================*/
+.skew-icon-btn {
+    padding: 4px 20px 4px 4px;
+    white-space: nowrap;
+}
+
+.skew-icon-btn i::after{
+	right:70%;
+	-webkit-transform: skew(25deg);
+	-moz-transform: skew(25deg);
+	-o-transform: skew(25deg);
+	-ms-transform: skew(25deg);
+	transform: skew(25deg);
+}
+.skew-icon-btn i{
+	margin-right: 25px;
+	margin-left:0px;
+}
+
+.skew-icon-btn.button-xl {
+    padding: 9px 50px 9px 9px;
+}
+
+.skew-icon-btn.button-xl i{
+	margin-right:50px;
+	margin-left:0px;
+}
+
+.skew-icon-btn.button-lg{
+    padding: 6px 36px 6px 6px;
+}
+
+.skew-icon-btn.button-lg i {
+	margin-right:35px;
+    margin-left: 0px;
+}
+
+.skew-icon-btn.button-sm {
+    padding: 2px 10px 2px 2px;
+}
+
+.skew-icon-btn.button-sm i {
+	margin-right: 10px;
+	margin-left: 0px;
+}
+
+.skew-icon-btn i{
+	-moz-transform: scale(1) rotate(180deg);
+	-webkit-transform: scale(1) rotate(180deg);
+	-o-transform: scale(1) rotate(180deg);
+	-ms-transform: scale(1) rotate(180deg);
+	transform: scale(1) rotate(180deg);	
+}
+
+.site-button-link i{
+	-moz-transform: scale(1) rotate(180deg);
+	-webkit-transform: scale(1) rotate(180deg);
+	-o-transform: scale(1) rotate(180deg);
+	-ms-transform: scale(1) rotate(180deg);
+	transform: scale(1) rotate(180deg);	
+	padding-left: 5px;	
+}
+
+/*==============================
+	BLOG STYLE CSS
+==============================*/
+.blog-md .wt-post-media {
+    float: right;
+    margin-left: 30px;
+	margin-right:0px;
+}
+.recent-posts-entry .wt-post-media {
+    float: right;
+}
+.recent-posts-entry .wt-post-info {
+    margin-right: 80px;
+	margin-left:auto;
+	background: transparent;
+	padding: 0;
+	border: none;	
+
+}
+/*==============================
+	DATE STYLE CSS
+==============================*/
+.date-style-2 .post-date{
+	right:20px;
+	left:auto;
+}
+
+.date-style-3 .post-date{
+	right:0px;
+	left:auto;
+	padding-right:0px;
+}
+.date-style-3.date-skew .post-date::before{
+	left:-14px;
+	right:auto;
+	-webkit-transform: skew(-30deg);
+	-moz-transform: skew(-30deg);
+	-o-transform: skew(-30deg);
+	-ms-transform: skew(-30deg);
+	transform: skew(-30deg);
+}
+
+.date-style-3.date-skew .post-date i::after {
+    left: -12px;
+	right:auto;
+	-webkit-transform: skew(-30deg);
+	-moz-transform: skew(-30deg);
+	-o-transform: skew(-30deg);
+	-ms-transform: skew(-30deg);
+	transform: skew(-30deg);
+}
+.date-style-3.date-skew .post-date i{
+	margin-left:35px;
+	margin-right:0px;
+}
+
+.date-style-3 .post-date i{
+	margin-right:0px;
+	margin-left:auto;
+}
+
+.date-style-3 .post-date strong {
+    margin-right: 10px;
+	margin-left: 5px;
+}
+.date-style-3 .post-date span {
+    float:left;
+}
+
+.date-style-1 .post-date span {
+    float:left;
+}
+
+/*==============================
+	TABS CSS
+===============================*/
+.wt-tabs .nav-tabs > li > a i{
+	margin-left:5px;
+	margin-right:auto;
+}
+
+
+/*==============================
+	PRICING TABLE
+===============================*/
+.pricing-table-style-2 .pricingtable-price::after{
+	right:-40px;
+	left:auto;
+	-webkit-transform: skew(30deg);
+	-moz-transform: skew(30deg);
+	-o-transform: skew(30deg);
+	-ms-transform: skew(30deg);
+	transform: skew(30deg);
+}
+
+/*==============================
+	SUPPORT SKEW
+===============================*/
+.support-skew::after{
+	left:0px;
+	right:auto;	
+	border-left: 12px solid #1e1c1c;
+	-webkit-transform: skew(30deg);
+	-moz-transform: skew(30deg);
+	-o-transform: skew(30deg);
+	-ms-transform: skew(30deg);
+	transform: skew(30deg);
+}
+@media only screen and (max-width:768px) {
+.support-skew::after{
+	border-left: 0px !important;
+	-webkit-transform: skew(0deg);
+	-moz-transform: skew(0deg);
+	-o-transform: skew(0deg);
+	-ms-transform: skew(0deg);
+	transform: skew(0deg);
+}
+}
+
+.support-skew{
+	padding-left:50px;
+	padding-right:15px;
+}
+
+
+@media only screen and (max-width:600px) {
+.company-status {
+	 padding-left:0px !important;
+	 padding-right:0px !important;
+}
+.status-marks{
+	width:100%;
+}
+}
+
+
+/*==============================
+	TESTIMONIALS
+===============================*/
+.testimonial-4 .testimonial-detail::after, 
+.testimonial-grid-4 .testimonial-detail::before{
+	left:-30px;
+	right:auto;
+	-webkit-transform: skew(45deg);
+	-moz-transform: skew(45deg);
+	-o-transform: skew(45deg);
+	-ms-transform: skew(45deg);
+	transform: skew(45deg);
+}
+.testimonial-4 .testimonial-detail .fa-quote-left,
+.testimonial-grid-4 .testimonial-detail .fa-quote-left{
+	right:0px;
+	left:auto;
+}
+.testimonial-4 .testimonial-detail,
+.testimonial-grid-4 .testimonial-detail {
+    padding: 15px 70px 15px 20px;
+}
+.testimonial-4 .testimonial-detail .testimonial-position::after,
+.testimonial-grid-4 .testimonial-detail .testimonial-position::after{
+	right:-10px;
+	left:auto;
+}
+.testimonial-4 .testimonial-pic, .testimonial-grid-4 .testimonial-pic{
+	float:right;
+}
+.testimonial-4 .testimonial-paragraph, .testimonial-grid-4 .testimonial-paragraph{
+	padding-left:inherit;
+	padding-right:20px;
+}
+.testimonial-4 .testimonial-pic::after, .testimonial-grid-4 .testimonial-pic::after{
+	right: 36px;
+	left:auto;
+	-webkit-transform: skew(-25deg);
+	-moz-transform: skew(-25deg);
+	-o-transform: skew(-25deg);
+	-ms-transform: skew(-25deg);
+	transform: skew(-25deg);
+}
+
+.testimonial-4 .testimonial-detail .fa-quote-left, .testimonial-grid-4 .testimonial-detail span{
+	-moz-transform: scale(1) rotate(180deg);
+	-webkit-transform: scale(1) rotate(180deg);
+	-o-transform: scale(1) rotate(180deg);
+	-ms-transform: scale(1) rotate(180deg);
+	transform: scale(1) rotate(180deg);	
+}
+
+.testimonial-2 .testimonial-pic, .testimonial-grid-2 .testimonial-pic{
+	margin-right: auto;
+	margin-left: 15px;
+	float:right;
+}
+
+.testimonial-2 .testimonial-text::after, .testimonial-grid-2 .testimonial-text::after{
+	right:25px;
+	left:auto;
+}
+.testimonial-2 .testimonial-text .fa-quote-left, .testimonial-grid-2 .testimonial-text .fa-quote-left{
+	right:15px;
+	left:auto;
+}
+
+.testimonial-2 .testimonial-text, .testimonial-grid-2 .testimonial-text{
+	 padding: 25px 50px 25px 30px;	
+}
+
+.testimonial-2 .testimonial-name, .testimonial-2 .testimonial-position,
+.testimonial-grid-2 .testimonial-name, .testimonial-grid-2 .testimonial-position{
+	text-align:left;
+}
+
+@media only screen and (max-width:400px){
+.testimonial-4 .testimonial-detail::after, .testimonial-grid-4 .testimonial-detail::before{
+	left:-40px;
+}
+}
+/*==============================
+	ABOUT COMPANY
+===============================*/
+.about-types .wt-icon-box-wraper{
+	border-width:0px 3px 0px 0px;
+	padding-left:0px;
+	padding-right:20px;
+}
+.about-types .icon-xld, .about-types .icon-xl, .about-types .icon-lg, .about-types .icon-md, .about-types .icon-sm, .about-types .icon-xs{
+	float:right !important;
+	margin-right:auto !important;
+	margin-left:10px !important;
+}
+/*==============================
+	TOOLTIP
+===============================*/
+.tooltip.right .tooltip-arrow {
+	left:0px;
+	right:auto;
+	border-width: 5px 0px 5px 5px;
+	-moz-transform: scale(1) rotate(180deg);
+	-webkit-transform: scale(1) rotate(180deg);
+	-o-transform: scale(1) rotate(180deg);
+	-ms-transform: scale(1) rotate(180deg);
+	transform: scale(1) rotate(180deg);	
+}
+.tooltip.left .tooltip-arrow {
+	right: 0px;
+	left:auto;
+	border-width: 5px 5px 5px 0px;
+	-moz-transform: scale(1) rotate(180deg);
+	-webkit-transform: scale(1) rotate(180deg);
+	-o-transform: scale(1) rotate(180deg);
+	-ms-transform: scale(1) rotate(180deg);
+	transform: scale(1) rotate(180deg);	
+}
+.popover.left > .arrow{
+	right:-11px;
+	left:auto;
+}
+.popover.left > .arrow {
+    border-left-width: 0;
+    border-right-color: rgba(0, 0, 0, 0.25);
+	-moz-transform: scale(1) rotate(180deg);
+	-webkit-transform: scale(1) rotate(180deg);
+	-o-transform: scale(1) rotate(180deg);
+	-ms-transform: scale(1) rotate(180deg);
+	transform: scale(1) rotate(180deg);	
+}
+
+.popover.right > .arrow{
+	left:-11px;
+	right:auto;
+}
+.popover.right > .arrow {
+    border-left-width: 0;
+    border-right-color: rgba(0, 0, 0, 0.25);
+	-moz-transform: scale(1) rotate(180deg);
+	-webkit-transform: scale(1) rotate(180deg);
+	-o-transform: scale(1) rotate(180deg);
+	-ms-transform: scale(1) rotate(180deg);
+	transform: scale(1) rotate(180deg);	
+}
+
+/*==============================
+	COMPANY DETAIL SKEW
+===============================*/
+.company-status {
+    padding-right:190px;
+	padding-left:0px;
+}
+.company-detail-skew::after{
+	left:100%;
+	right:auto;	
+	border-left: 12px solid #1e1c1c;
+}
+
+
+.company-detail-skew:after {
+	-webkit-transform: skew(-30deg);
+	-moz-transform: skew(-30deg);
+	-o-transform: skew(-30deg);
+	-ms-transform: skew(-30deg);
+	transform: skew(-30deg);
+}
+
+.status-sign{
+	float:right;
+	left:18px;
+	-webkit-transform: skew(-30deg);
+	-moz-transform: skew(-30deg);
+	-o-transform: skew(-30deg);
+	-ms-transform: skew(-30deg);
+	transform: skew(-30deg);
+}
+.status-sign i{
+	padding-right: 0px;
+	padding-left: 25px;
+	-webkit-transform: skew(30deg);
+	-moz-transform: skew(30deg);
+	-o-transform: skew(30deg);
+	-ms-transform: skew(30deg);
+	transform: skew(30deg);
+}
+
+/*=============================
+	OUR TEAM
+==============================*/
+.wt-team-four .wt-team-skew-block .social-icons-outer::after{
+	left:-30px;
+	right:auto;
+	-webkit-transform: skew(30deg);
+	-moz-transform: skew(30deg);
+	-o-transform: skew(30deg);
+	-ms-transform: skew(30deg);
+	transform: skew(30deg);
+}
+.wt-team-four .wt-team-skew-block .social-icons-outer{
+	margin-left:70px;
+	margin-right:auto;
+}
+
+/*=============================
+	FILTER CSS
+==============================*/
+.masonry-filter.link-style > li::after{
+	left:-18px;
+	right:auto;
+}
+
+/*=============================
+	ERROR CSS
+==============================*/
+.page-notfound strong{
+	direction:ltr;
+}
+
+/*=============================
+	FAQ CSS
+==============================*/
+.faq-block .faq-que, .faq-block .faq-ans {
+    padding: 11px 70px 11px 10px;
+}
+
+.faq-block .faq-que::after, .faq-block .faq-ans::after{
+	right:0px;
+	left:auto;
+}
+
+/*=============================
+	ICON BOX CSS
+==============================*/
+
+.wt-icon-box-wraper.left .icon-xld, 
+.wt-icon-box-wraper.left .icon-xl, 
+.wt-icon-box-wraper.left .icon-lg, 
+.wt-icon-box-wraper.left .icon-md, 
+.wt-icon-box-wraper.left .icon-sm, 
+.wt-icon-box-wraper.left .icon-xs{
+	float:right;
+	margin-left:10px;
+	margin-right:auto;
+}
+
+
+.wt-icon-box-wraper.left .wt-icon-box-xld, 
+.wt-icon-box-wraper.left .wt-icon-box-xl, 
+.wt-icon-box-wraper.left .wt-icon-box-lg, 
+.wt-icon-box-wraper.left .wt-icon-box-md, 
+.wt-icon-box-wraper.left .wt-icon-box-sm, 
+.wt-icon-box-wraper.left .wt-icon-box-xs{
+	float:right;
+    margin-left:20px;
+	margin-right:auto;}
+
+.wt-icon-box-wraper.bx-style-2.left [class*="wt-icon-box-"]{
+	right:0px;
+	left:auto;
+	-webkit-transform: translateX(50%);
+	-ms-transform: translateX(50%);
+	transform: translateX(50%);
+}
+.bx-style-2{
+	margin-left:0px;
+	margin-right:40px;
+}
+.bx-style-2 .icon-content{
+	padding-left:0px;
+	padding-right:40px;
+}
+/*=============================
+	PROGRESS CSS
+==============================*/
+.progress .tooltip{
+	float:left;
+}
+
+/*==============================
+	ACCORDIANS CSS
+==============================*/
+.acod-head .indicator{
+	right:auto;
+	left:0px;
+}
+
+.acod-head a {
+    display: block;
+    padding: 15px 15px 15px 40px;
+}
+
+
+/*==============================
+	ADD CSS
+==============================*/
+.pro-banner-disc a{
+	left:0px;
+	right:auto;
+}
+
+/*==============================
+	ACCORDIANS CSS
+==============================*/
+input[type="checkbox"] + label::before, input[type="radio"] + label::before{
+	margin-right:-20px;
+	margin-left:auto;
+}
+
+input[type=checkbox]:checked + label:after{
+	right:-18px;
+}
+
+@media only screen and (max-width:768px){
+input[type="checkbox"]:checked + label::after {
+    right: 2px;
+    top: 3px;
+}
+}
+
+/*==============================
+	WIDGET CSS
+==============================*/
+.widget_getintuch li {
+	padding-left: 0px;
+    padding-right: 40px;
+}
+
+.widget_getintuch li i{
+	right:0px;
+	left:auto;
+}
+
+.widget-title::before{
+	right:0px;
+	left:auto;
+}
+
+.widget-title::after{
+	right:18px;
+}
+
+.widget_categories ul li::before, 
+.widget_archive ul li::before, .widget_meta ul li::before, 
+.widget_pages ul li::before, .widget_recent_comments ul li::before, 
+.widget_nav_menu ul li::before, .widget_useful_links ul li::before, 
+.widget_recent_entries ul li::before, .widget_services ul li::before{
+	right:0px;
+	left:auto;
+}
+
+.widget_categories ul li, .widget_archive ul li, 
+.widget_meta ul li, .widget_pages ul li, 
+.widget_recent_comments ul li, 
+.widget_nav_menu li, .widget_recent_entries ul li, 
+.widget_services ul li{
+	
+	 padding: 10px 15px 10px 15px;
+}
+
+.widget_categories ul li li, 
+.widget_archive ul li li, .widget_meta ul li li, 
+.widget_pages ul li li, .widget_recent_comments ul li li, 
+.widget_nav_menu li li, .widget_services li li{
+	padding: 0 15px 0 10px;
+}
+.widget_categories li{
+	text-align:left;
+}
+.widget_categories li a{
+	float:right;
+}
+
+
+/*==============================
+	TIMELINE CSS
+==============================*/
+.timeline .timeline-item:nth-child(2n+1) .timeline-icon{
+	left:-40px;
+	right:auto;
+}
+
+.timeline .timeline-item:nth-child(2n+1){
+	padding-left:60px;
+	padding-right:inherit;
+}
+
+.timeline .timeline-item:nth-child(2n){
+	margin-right:50%;
+	margin-left:auto;
+	padding-right:60px;
+	padding-left:inherit;
+}
+.timeline .timeline-item:nth-child(2n) .timeline-icon{
+	right:-40px;
+	left:auto;
+}
+
+.timeline-2 .timeline-icon{
+	left:auto;
+	right:0px;
+}
+.timeline-2::before{
+	right:39px;
+	left:auto
+}
+.timeline-2 .timeline-item {
+    padding-right: 110px;
+    padding-left: inherit;
+}
+.timeline-2 .timeline-item::before{
+	right:80px;
+	left:auto;
+}
+
+/*==============================
+	FOOTER CSS
+==============================*/
+.call-to-action-skew .call-to-action-left::after{
+	left:0px;
+	right:auto;
+	border-left: 7px solid #212427;
+	-webkit-transform: skew(30deg);
+	-moz-transform: skew(30deg);
+	-o-transform: skew(30deg);
+	-ms-transform: skew(30deg);
+	transform: skew(30deg);
+}
+
+.footer-bottom .copyrights-nav li::after {
+    left: -8px;
+	right:auto
+}
+
+.recent-posts-entry-date .wt-post-date{
+	float:right;
+}
+.recent-posts-entry-date .wt-post-info{
+	margin-left:auto;
+	margin-right:70px;
+}
+@media only screen and (max-width:768px){
+.call-to-action-skew .call-to-action-left::after{
+	transform: skew(0deg);
+	border-left: 0px;
+	left:-15px;
+}
+.call-to-action-right {
+    text-align: right;
+}	
+}
+
+
+/*==============================
+	BASIC CSS
+==============================*/
+
+.text-left{
+	text-align:right;
+}
+
+.text-right{
+	text-align:left;
+}
+
+
+/*==============================
+	CONTACT US CSS
+==============================*/
+.wt-icon-box-sm.corner::after {
+    border-right: 20px solid transparent;
+	border-left:none;
+}
+.corner[class*="wt-icon-box-"]::after{
+	left:3px;
+	right:auto;
+}
+
+/*==============================
+	LIST CSS
+==============================*/
+ol.comment-list li.comment .comment-body{
+	margin-right:80px;
+	margin-left:auto;
+}
+ol.comment-list li.comment .comment-author .avatar{
+	right:-80px;
+	left:auto;
+}
+ol.comment-list li.comment .comment-body::before, ol.comment-list li.comment .comment-body::after {
+    border-width: 10px 0px 10px 12px;
+}
+ol.comment-list li.comment .comment-body::before{
+	 right:-12px;
+	 left:auto;
+	 top:20px;
+}
+ol.comment-list li.comment .comment-body::after{
+	right:-14px;
+	left:auto;
+}
+ol.comment-list li.comment .reply a{
+	left:30px;
+	right:auto;
+}
+
+ol.commentlist li .star-rating{
+	top:0px
+}
+
+ol.list-num-count > li {
+    list-style: outside none none;
+    margin: 0px 30px 6px 0px;
+    padding: 4px 8px;
+    position: relative;
+}
+
+ol.list-num-count > li::before{
+	right:-28px;
+	left:auto;
+}
+
+.list-circle li::before, .list-angle-right li::before, 
+.list-arrow li::before, .list-check li::before, 
+.list-checked li::before, .list-check-circle li::before, 
+.list-chevron-circle li::before, .list-arrow-circle li::before, 
+.list-times-circle li::before{
+	left:auto;
+	right:0px;
+}
+
+
+.list-circle li, .list-angle-right li, 
+.list-arrow li, .list-check li, 
+.list-checked li, .list-check-circle li, 
+.list-chevron-circle li, .list-arrow-circle li, .list-times-circle li{
+	padding: 5px 20px 5px 5px;
+}
+
+ol.comment-list li .children {
+    list-style: none;
+    margin-left: auto;
+	margin-right: 80px;
+}
+
+/*==============================
+	LOADER CSS
+==============================*/
+#cssload-cupcake {
+    direction: ltr;
+}
+
+/*==============================
+	OWL CSS
+==============================*/
+.owl-prev {
+    margin-left: 5px;
+	margin-right: auto;
+	
+}
+
+.site-search form{
+	padding-left:15px;
+}
+
+.mfp-counter{
+	direction:ltr;
+}
+
+/*==============================
+	REVOLUTION SLIDER CSS
+==============================*/
+.boxed .tp-rightarrow {
+    right:-30px !important;
+}
+
+/*==============================
+	FILLTER BUTTON SKEW CSS
+==============================*/
+.masonry-filter.outline-style.button-skew > li a {
+	-webkit-transform: skew(20deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);
+	-ms-transform: skew(20deg);
+	transform: skew(20deg);	
+}
+
+.masonry-filter.outline-style.button-skew > li a span{
+	display:inline-block;
+	-webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
+	-ms-transform: skew(-20deg);
+	transform: skew(-20deg);
+}
+
+
+.latest-blog-4 .wt-post-media {
+    float: right;
+}
+/*==============================
+	Filter Css
+==============================*/
+.btn-filter-wrap li::after {
+    left: auto;
+	right:-10px
+}
+
+.btn-filter-wrap li:last-child {
+    padding-right:10px;
+    padding-left: 0px;
+}	
+
+.header-nav .nav > li .sub-menu li a{
+	position:relative;
+}
+.header-nav .nav > li .sub-menu li a .nav-new-label{
+	right:auto;
+	left: 10px;
+}
